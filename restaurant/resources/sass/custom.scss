@@ -1,0 +1,32 @@
+.list-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__buttons{
+        display: flex;
+        &>*{
+            margin:15px;
+        }
+    }
+}
+
+.make-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .check {
+        padding: 10px;
+        background-color: aqua;
+    }
+}
+
+.card > .card-body.cd {
+    background-color: aqua;
+}
+
+.img-fluid.img-c{
+    width:100%;
+    height: 50%;
+    object-fit: cover;
+}
